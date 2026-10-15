@@ -19,7 +19,7 @@ Each entry is a 10-element array (empty example: `[]`):
 ```
 Example:
 ```json
-[["The Dream Machine","M. Mitchell Waldrop",2001,8,"tech","Licklider and the birth of personal computing.",
-  [["Some Book On The Shelf","same era"]],"https://press.stripe.com/","s","https://covers.openlibrary.org/b/id/402828-L.jpg"]]
+[["The Origin of Species","Charles Darwin",1859,8,"sci","The founding argument for evolution by natural selection.",
+  [["Some Book On The Shelf","same era"]],"https://openlibrary.org/works/OL450063W","s",null]]
 ```
 Rules for the bot: not already shelved, not in blocklist.json, verified (Open Library author + year), cover eyeballed, `cluster_key` must exist in config.json `clusters` (use `wild` for wildcards).

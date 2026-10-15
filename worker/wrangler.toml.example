@@ -6,7 +6,7 @@ account_id = "__ACCOUNT_ID__"
 workers_dev = true
 
 [vars]
-ALLOWED_ORIGIN = "__ORIGIN__"   # e.g. https://<github-user>.github.io (comma-separate several)
+ALLOWED_ORIGIN = "__ORIGIN__"   # the Cloudflare Pages origin, e.g. https://<project>.pages.dev (comma-separate several)
 
 [[kv_namespaces]]
 binding = "KV"
