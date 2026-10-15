@@ -1,0 +1,16 @@
+# setup.sh writes worker/wrangler.toml from this file. Placeholders: __WORKER_NAME__, __ACCOUNT_ID__, __KV_ID__, __ORIGIN__
+name = "__WORKER_NAME__"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+account_id = "__ACCOUNT_ID__"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGIN = "__ORIGIN__"   # e.g. https://<github-user>.github.io (comma-separate several)
+
+[[kv_namespaces]]
+binding = "KV"
+id = "__KV_ID__"
+# Secrets (set by setup.sh via `wrangler secret put`, never in this file):
+#   WEBHOOK_URL, WEBHOOK_KEY  - the Grok Bot webhook routine the worker forwards events to
+#   READ_KEY                  - protects GET /events

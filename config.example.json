@@ -1,0 +1,24 @@
+{
+  "goodreads_user_id": "123456789",
+  "display_name": "Alex",
+  "site_title": "Alexandria",
+  "site_subtitle": "Alex's reading map",
+  "footer": "Built by Alexandria",
+  "github_owner": "your-github-user",
+  "pages_repo": "",
+  "worker_name": "alexandria-api",
+  "workers_subdomain": "",
+  "worker_url": "",
+  "kv_namespace_id": "",
+  "clusters": {
+    "phil":  {"name": "Philosophy & Meaning", "color": "#9b8bc4"},
+    "pol":   {"name": "Politics & State",     "color": "#6f9fc0"},
+    "tech":  {"name": "Technology & Progress","color": "#6fb3a5"},
+    "found": {"name": "Founders & Companies", "color": "#d4a464"},
+    "hist":  {"name": "History",              "color": "#b4876a"},
+    "sci":   {"name": "Science",              "color": "#93ad6c"},
+    "lit":   {"name": "Literature",           "color": "#c97b7b"},
+    "wild":  {"name": "Wildcards",            "color": "#e07bb5"}
+  },
+  "default_cluster": "phil"
+}

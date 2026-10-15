@@ -1,0 +1,9 @@
+config.json
+data/*.json
+!data/picks.example.json
+dist/
+worker/wrangler.toml
+worker/node_modules/
+worker/.wrangler/
+node_modules/
+__pycache__/
